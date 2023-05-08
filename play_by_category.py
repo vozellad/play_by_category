@@ -93,7 +93,7 @@ class PlayByCategory(commands.Cog):
     @commands.command()
     async def helpcat(self, ctx):
         """lets user know what they can do"""
-        await ctx.send("?playcat <category>"
+        await ctx.send("?playcat <category>\n"
                        "?printcat - print available categories")
 
     @commands.command()
